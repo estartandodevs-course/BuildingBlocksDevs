@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <PackageId>EstartandoDevsWebApi.Core</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Alexandre Nascimento</Authors>
+    <Company>Curso EstartandoDevs</Company>
+    <LangVersion>12</LangVersion>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EstartandoDevsCore\EstartandoDevsCore.csproj" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.4" />
+    <PackageReference Include="Microsoft.Extensions.Http.Polly" Version="3.1.4" />
+  </ItemGroup>
+
+</Project>
